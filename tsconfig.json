@@ -1,9 +1,14 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "baseUrl": "./src",
+    "baseUrl": "/src",
+    "outDir": "./",
+    "sourceRoot": "./src",
     "module": "commonjs",
-    "outDir": "out",
-    "inlineSourceMap": true
-  }
+    "inlineSourceMap": true,
+    "removeComments": true,
+    "alwaysStrict": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
 }
