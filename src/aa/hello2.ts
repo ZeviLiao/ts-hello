@@ -1,1 +1,4 @@
-console.log('hello2')
+
+export function aa() {
+  return 'hello2'
+}
